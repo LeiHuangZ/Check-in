@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.example.huang.check_in.MainActivity">
+
+    <TextView
+        android:id="@+id/school_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#0066cc"
+        android:gravity="center"
+        android:text="@string/title"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Tips:在开始新一轮检票之前请先清除数据！！！"
+        android:textColor="#D66558"/>
+
+    <Button
+        android:id="@+id/tv_import_vip"
+        android:layout_width="240dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_bg"
+        android:text="@string/Import_VIP"
+        android:textSize="23sp"/>
+
+    <Button
+        android:id="@+id/tv_scan"
+        android:layout_width="240dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_bg"
+        android:text="@string/Scan"
+        android:textSize="23sp"/>
+
+    <Button
+        android:id="@+id/tv_scan2"
+        android:layout_width="240dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_bg"
+        android:text="单场票检票"
+        android:textSize="23sp"/>
+
+    <Button
+        android:id="@+id/tv_output"
+        android:layout_width="240dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_bg"
+        android:text="@string/output"
+        android:textSize="23sp"/>
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="240dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_bg"
+        android:text="@string/clear"
+        android:textSize="23sp"/>
+
+</LinearLayout>

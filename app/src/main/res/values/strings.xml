@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">铁汉检票</string>
+    <string name="Import_VIP">导入门票信息</string>
+    <string name="title">梅县铁汉足球俱乐部</string>
+    <string name="Scan">年票检票</string>
+    <string name="start">扫描门票</string>
+    <string name="output">导出检票信息</string>
+    <string name="clear">清除所有数据</string>
+    <string name="not_found">无效门票！</string>
+    <string name="again">该门票已经在今天刷过一次！</string>
+    <string name="welcome">检票通过！</string>
+    <string name="tip">Tip：年卡请直接读取，普通门票请按扫描键扫描</string>
+</resources>
